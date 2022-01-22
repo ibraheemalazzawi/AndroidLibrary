@@ -4,6 +4,11 @@
 
 A simple library that provides an easy to use OTP component.
 
+## Screenshots
+![image](https://user-images.githubusercontent.com/9570828/150615542-48c20519-1dbe-4585-8afb-7f7a93f046d0.png)
+<br/>
+<img src="https://user-images.githubusercontent.com/9570828/150615780-b0f8c6c7-e12c-44fd-9e40-7fc3fd409110.gif" height="650"/>
+
 
 ## Gradle
 Step 1. Add the JitPack repository to your build file
@@ -45,7 +50,6 @@ OtpComponent(
         //To attach the otp component with a button, you can use this status to
         //enable or disable the button
     },
-    numberOfInput = 4,
     keyStyle = KeyStyle(
         height = 30.dp,
         textColor = Primary,
